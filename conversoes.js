@@ -10,3 +10,8 @@ console.log (nro + nroStr);
 
 //conversao explicita
 console.log (nro + Number(nroStr));
+
+//conversao string
+console.log(nro.toString());
+console.log('o nro é ' + String(nro));
+
