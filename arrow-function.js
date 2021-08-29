@@ -20,3 +20,4 @@ const maiorNumero = (valor1, valor2) => {
  }
 
  console.log(maiorNumero(3,2));
+ console.log(maiorNumero(3,4));
