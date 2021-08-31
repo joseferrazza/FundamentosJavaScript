@@ -54,3 +54,21 @@ console.log(`Lista com segunda alteraçã: ${alunos}`)
 //vai incluir incluir um novo registro na posicao 2
 alunos.splice(2,0,"nome3");
 console.log(`Lista com segunda alteraçã: ${alunos}`)
+
+//concatenando arrays
+const sala10 = ['pessoa1', 'pessoa2', 'pessoa3']
+const sala20 = ['pessoa4', 'pessoa5', 'pessoa6']
+
+const salaUnica = sala10.concat(sala20)
+
+console.log(sala10)
+console.log(sala20)
+console.log(salaUnica)
+
+//lista de duas dimensoes
+const alunos10 = ['aluno1','aluno2','aluno3','aluno4']
+const notas10 = [10,8,9,7]
+
+let alunosxNotas = [alunos10,notas10]
+
+console.log(`${alunosxNotas[0] [0]} a sua média é ${alunosxNotas[1] [0]}`)
