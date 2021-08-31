@@ -72,3 +72,14 @@ const notas10 = [10,8,9,7]
 let alunosxNotas = [alunos10,notas10]
 
 console.log(`${alunosxNotas[0] [0]} a sua média é ${alunosxNotas[1] [0]}`)
+
+const exibeNotaAluno = (nomeAluno) => {
+    if (alunosxNotas[0].includes(nomeAluno)) {
+        let indice = alunosxNotas[0].indexOf(nomeAluno)
+        return `Olá ${alunosxNotas[0] [indice]}, sua nota é ${alunosxNotas[1] [indice]}`
+    } else {
+        return "Aluno não encontrado"
+    }
+}
+
+console.log(exibeNotaAluno('aluno02'))
